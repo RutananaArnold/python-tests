@@ -35,9 +35,27 @@ num1 = input("Enter first number ")
 num2 = input("Enter second number ")
 
 sum = int(num1) + int(num2)
-print( "Sum is ", sum)
+print( "Sum is: ", sum)
+# or
+print("sum is : " + str(sum))
 
 # defining a function
-def addition( a, b):   
- sum = int(a) + int(b)
- print("Sum: ", sum)
+def Addition( a, b):   
+    sum = int(a) + int(b)
+    print("Sum: ", sum)
+      
+          
+# to terminte the function or if block of code press ENTER + SHIFT + TAB
+
+temp = 20
+
+if temp > 30:
+      print("its a hot day")
+elif temp > 20:
+      print("its a nice day")
+elif temp > 10:
+      print("its a bit cold")
+else:
+    print("it's cold")      
+              
+    
